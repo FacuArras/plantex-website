@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#offcanvas li:hover span {
+  width: 15%;
+  transform: translateX(0);
+}
+
+.desktopNav li:hover span {
+  width: 50%;
+  transform: translateX(0);
+}

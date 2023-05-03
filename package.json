@@ -1,0 +1,14 @@
+{
+  "name": "plants-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
